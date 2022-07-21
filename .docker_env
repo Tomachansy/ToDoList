@@ -2,4 +2,4 @@
 DEBUG=True
 
 DATABASE_URL=postgres://postgres:postgres@localhost:5432/todolist_postgres
-SECRET_KEY='dflgh2l(03%m5i#oxy3r1h-o=n+zg9dkn2ktrv@nccyvfa9$@$'
+DJANGO_SECRET_KEY=dflgh2l(03%m5i#oxy3r1h-o=n+zg9dkn2ktrv@nccyvfa9$@$
