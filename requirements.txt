@@ -18,8 +18,8 @@ itypes==1.2.0
 Jinja2==3.1.2
 MarkupSafe==2.1.1
 oauthlib==3.2.0
-pip~=22.1.2
-psycopg2==2.9.3
+pip~=22.2
+psycopg2-binary~=2.9.3
 pycparser==2.21
 PyJWT==2.4.0
 python-dotenv==0.20.0

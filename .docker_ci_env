@@ -1,5 +1,5 @@
 
 DEBUG=False
 
-DATABASE_URL=postgres://${DB_USER}:${DB_PASSWORD}@postgres:5432/${DB_NAME}
+DATABASE_URL=postgresql://${DB_USER}:${DB_PASSWORD}@postgres:5432/${DB_NAME}
 DJANGO_SECRET_KEY=dflgh2l(03%m5i#oxy3r1h-o=n+zg9dkn2ktrv@nccyvfa9$@$
