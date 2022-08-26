@@ -43,7 +43,7 @@ services:
       DB_HOST: postgres
     ports:
       - "8000:8000"
-    command: python manage.py runserver 0.0.0.0:8000
+    command: python manage.py runserver 0.0.0.0:80
     volumes:
       - ./.env:/app/.env
 
