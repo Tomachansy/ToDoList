@@ -37,15 +37,8 @@ services:
         condition: service_healthy
       migrations:
         condition: service_completed_successfully
-    env_file:
-      - .env
-    environment:
-      DB_HOST: postgres
-    ports:
-      - "8000:8000"
-    command: python manage.py runserver 0.0.0.0:80
     volumes:
-      - ./.env:/app/.env
+      - ./.docker_env:/app/.env
 
   front:
     image: sermalenk/skypro-front:lesson-34
