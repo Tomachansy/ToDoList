@@ -6,7 +6,7 @@ WORKDIR /app/
 
 # install psycopg2 dependencies
 RUN apt-get update \
-    && apt-get add postgresql-dev gcc python3-dev musl-dev
+    && apt-get install -y postgresql-dev gcc python3-dev musl-dev
 
 # install dependencies
 RUN pip install --upgrade pip
