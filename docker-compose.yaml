@@ -27,7 +27,7 @@ services:
       - .env
     environment:
       DB_HOST: postgres
-    command: python manage.py migrate
+    command: python manage.py makemigrations core && python manage.py migrate
 
   api:
     build:
